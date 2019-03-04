@@ -1,0 +1,73 @@
+---
+layout: article
+title: [动态规划 |数位]【scoi2009】windy数
+categories: 题目
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: http://pic.netbian.com/uploads/allimg/190224/204454-15510122943266.jpg
+---
+# Description
+windy定义了一种windy数。相邻两个数字之差至少为2的正整数被称为windy数。windy想知道，在A和B之间，包括A和B，总共有多少个windy数？
+# Input
+包含两个整数，A B。
+# Output
+包含一个整数。
+# Sample Input
+```
+1 10
+```
+# Sample Output
+```
+9
+```
+# Hint
+20%的数据，满足 1 <= A <= B <= 1000000 。100%的数据，满足 1 <= A <= B <= 2000000000 。
+
+# Codes
+```cpp
+#include <bits/stdc++.h>
+#define maxn 66
+using namespace std;
+typedef long long LL;
+int spr[maxn];
+LL f[maxn][maxn];
+LL dfs(int x,int p,bool lim){
+	if(!x) return 1;
+	if(!lim && f[x][p]!=-1) return f[x][p];
+	LL ans=0;
+	int imax=lim?spr[x]:9;
+	for(int i=0;i<=imax;i++){
+		if(abs(i-p)<2) continue;
+		if(i==0 && p==11) ans+=dfs(x-1,11,lim && i==imax);
+		else ans+=dfs(x-1,i,lim && i==imax);
+	}
+	if(!lim) f[x][p]=ans;
+	return ans;
+}
+LL res(int x){
+	// spr[0] 存位数 
+	memset(spr,0,sizeof(spr));
+	while(x>0){
+		spr[++spr[0]]=x%10;
+		x/=10;
+	} spr[spr[0]+1]=-1;
+	memset(f,-1,sizeof(f));
+	return dfs(spr[0],11,true);
+}
+int main(){
+	#ifndef ONLINE_JUDGE
+	freopen("testin.txt","r",stdin);
+	freopen("testout.txt","w",stdout);
+	#endif
+	int a,b; cin>>a>>b;
+	cout<<res(b)-res(a-1);
+	return 0;
+}
+```
