@@ -84,7 +84,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
@@ -137,10 +137,10 @@ comments:
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
   valine:
-    app_id      : # LeanCloud App id
-    app_key     : # LeanCloud App key
-    placeholder : # Prompt information
-    visitor     : # false (default)
+    app_id      : B2Ix5BbhzWGQOslTqiBAEzGR-gzGzoHsz
+    app_key     : UyaUnb5QIfMA5bN8PWh7nQ1V
+    placeholder : Leave Your Opinion
+    visitor     : A Friend
     meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
 
