@@ -13,6 +13,9 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: 'http://pic.netbian.com/uploads/allimg/190224/204454-15510122943266.jpg'
 ---
+
+<!--more-->
+
 ## Desciption
 
 Farmer John wishes to build a corral for his cows. Being finicky beasts, they demand that the corral be square and that the corral contain at least C (1 <= C <= 500) clover fields for afternoon treats. The corral's edges must be parallel to the X,Y axes.
@@ -76,7 +79,7 @@ Explanation of the sample:
 ## 分析
 
 **二分搜索栅栏的边长**，每次将边长带入到图中，计算出最多能覆盖到的草场的数量即可
-
+{:.success}
 要计算覆盖草场的数量，选定一块草场 $i$ ，将 $x[i]$ 设为覆盖的上边界，得出下边界，在上边界和下边界中二分查找（使用 $ lower\_\;bound $）找到左右边界的草场编号范围（当然这需要提前对草场位置排序）
 
 ## Codes
