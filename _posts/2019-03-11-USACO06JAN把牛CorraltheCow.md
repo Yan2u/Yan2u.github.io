@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 动态规划 | [USACO06JAN]把牛Corral the Cows
+title: 分治 | [USACO06JAN]把牛Corral the Cows
 categories: 题目
 mode: immersive
 header:
