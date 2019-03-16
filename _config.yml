@@ -137,11 +137,11 @@ comments:
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
   valine:
-    app_id      : B2Ix5BbhzWGQOslTqiBAEzGR-gzGzoHsz
-    app_key     : UyaUnb5QIfMA5bN8PWh7nQ1V
+    app_id      : ORhPy8T6g5D7ECjzes3dn9R7-gzGzoHsz
+    app_key     : Cl0XyNethtwGCDMzbTPA64Qs
     placeholder : Leave Your Opinion
-    visitor     : A Friend
-    meta        : [A Friend,123,123]
+    visitor     :
+    meta        :
 
 
 ## => Pageview
