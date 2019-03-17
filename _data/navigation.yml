@@ -35,6 +35,6 @@ header:
     
     
   - titles:
-      en      : &EN       Links
+      en      : &EN       友人帐
       zh-Hans : &ZH_HANS  友人帐
-    url: /links.md
+    url: /links.html
