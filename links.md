@@ -15,3 +15,9 @@ article_header:
 ---
 
 # Links Page
+<div class="hero hero--center hero--dark" style='background-image: url("http://images.cnblogs.com/cnblogs_com/perisino/1411094/o_9c5cf6943f836a4f7d480b0eced567d0.jpg");'>
+  <div class="hero__content">
+    <a href="https://cnblogs.com/perisino"><h3>Perisino</h3></a>
+    <p>Friend——Perisino</p>
+  </div>
+</div>
