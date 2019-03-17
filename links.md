@@ -21,6 +21,7 @@ article_header:
   </div>
 </div>
 
+---
 
 <div class="hero hero--center hero--dark" style='background-image: url("http://pic.yupoo.com/zhufn/1b385893/07e30cd6.jpg");'>
   <div class="hero__content">
@@ -29,7 +30,9 @@ article_header:
   </div>
 </div>
 
-<div class="hero hero--center hero--dark" style='background-image: url("https://www.51nod.com/images/default/male.jpg");'>
+---
+
+<div class="hero hero--center hero--dark" style='background-image: url("http://pic.netbian.com/uploads/allimg/190306/100731-1551838051b6a5.jpg");'>
   <div class="hero__content">
     <a href="https://www.luogu.org/blog/108191/#"><h3>LTX</h3></a>
     <p>Friend——LTX</p>
