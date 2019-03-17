@@ -199,6 +199,10 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+collections_dir: docs
+collections:
+  docs:
+    output: true
 
 defaults:
   - scope:
