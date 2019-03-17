@@ -15,6 +15,5 @@ article_header:
 ---
 ## My Friends
 
-<div class="card">   <div class="card__image">     <img class="image" src="http://images.cnblogs.com/cnblogs_com/perisino/1411094/o_9c5cf6943f836a4f7d480b0eced567d0.jpg
-  "/>     <div class="overlay overlay--bottom">       <p><center>Perisino</center></p>     </div>   </div>
+<div class="card">   <div class="card__image">     <img class="image" src="http://images.cnblogs.com/cnblogs_com/perisin/1411094/o_9c5cf6943f836a4f7d480b0eced567d0.jpg">     <div class="overlay overlay--bottom">       <p><center>Perisino</center></p>     </div>   </div>
 </div>
