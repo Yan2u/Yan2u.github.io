@@ -199,10 +199,6 @@ exclude:
   - /screenshots
   - /test
   - /vendor
-collections_dir: docs
-collections:
-  docs:
-    output: true
 
 defaults:
   - scope:
@@ -217,11 +213,6 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
- - scope:
-      path: "_docs/en"
-      values:
-      layout: article
-      nav_key: docs
 
 
 ## => Plugins
