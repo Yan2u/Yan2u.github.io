@@ -15,7 +15,7 @@ article_header:
 ---
 ## My Friends
 
-<div class="hero hero--dark" style='height: 500px; background-image: url("http://images.cnblogs.com/cnblogs_com/perisino/1411094/o_9c5cf6943f836a4f7d480b0eced567d0.jpg");'>
+<div class="hero hero--dark" style='height: 500px; background-image: url("https://i.loli.net/2019/03/18/5c8f563b1ba1e.jpg");'>
   <div class="hero__content">
     <a href="http://www.cnblogs.com/perisino"><h3>Perisino</h3></a>
     <p>Friend——Perisino</p>
@@ -47,7 +47,7 @@ article_header:
 </div>
 
 ---
-<div class="hero hero--dark" style='height: 500px; background-image: url("http://pic.netbian.com/uploads/allimg/190123/202100-15482460601089.jpg");'>
+<div class="hero hero--dark" style='height: 500px; background-image: url("https://i.loli.net/2019/03/18/5c8f563b0b473.jpg");'>
   <div class="hero__content">
     <a href="https://epworth.coding.me"><h3>Epworth</h3></a>
     <p>Friend——Epworth</p>
