@@ -33,8 +33,8 @@ article_header:
 ---
 <div class="hero hero--dark" style='height: 500px; background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552881535528&di=9e0d8bdd6dd210ab44996f4281e58fc5&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201602%2F16%2F20160216105758_P5muR.jpeg");'>
   <div class="hero__content">
-    <a href="https://www.luogu.org/blog/108191/"><h3>LTX</h3></a>
-    <p>Friend——LTX</p>
+    <a href="https://www.luogu.org/blog/108191/"><h3><font color="black">LTX</font></h3></a>
+    <p><font color="black">Friend——LTX</font></p>
   </div>
 </div>
 
