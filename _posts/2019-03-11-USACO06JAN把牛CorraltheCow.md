@@ -2,6 +2,7 @@
 layout: article
 title: 分治 | [USACO06JAN]把牛Corral the Cows
 categories: 题目
+tags: 题目
 mode: immersive
 header:
   theme: dark
