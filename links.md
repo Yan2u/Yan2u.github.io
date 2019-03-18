@@ -11,7 +11,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(q139, 34, 139, .4))'
-    src: 'http://pic.netbian.com/uploads/allimg/190224/201741-1551010661d1ea.jpg'
+    src: "http://pic.netbian.com/uploads/allimg/190224/201741-1551010661d1ea.jpg"
 ---
 ## My Friends
 
