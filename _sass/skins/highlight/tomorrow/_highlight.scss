@@ -5,6 +5,10 @@ figure.highlight::before {
 pre.lineno {
   color: $highlight-comment !important;
 }
+code {
+    font-size: 20px;
+    line-height: 1.4;
+}
 .highlight > pre {
   color: $highlight-foreground;
   background-color: $highlight-background !important;
