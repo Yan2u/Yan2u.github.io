@@ -11,7 +11,7 @@ article_header:
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(q139, 34, 139, .4))'
-    src: 'https://i.loli.net/2019/03/18/5c8f6680900da.jpg'
+    src: 'https://i.loli.net/2019/03/24/5c9723356026e.jpg'
 ---
 ## My Friends
 
