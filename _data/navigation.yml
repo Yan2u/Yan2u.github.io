@@ -38,3 +38,8 @@ header:
       en      : &EN       友人帐
       zh-Hans : &ZH_HANS  友人帐
     url: /links.html
+
+  - titles:
+      en      : &EN       文章
+      zh-Hans : &ZH_HANS  文章
+    url: /postlists.html
