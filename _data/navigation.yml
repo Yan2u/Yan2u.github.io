@@ -1,5 +1,16 @@
 header:
   - titles:
+      en      : &EN       文章
+      zh-Hans : &ZH_HANS  文章
+    url: /postlists.html
+
+  - titles:
+      en      : &EN       导航
+      zh-Hans : &ZH_HANS  导航
+    url: /leader.html
+
+
+  - titles:
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
@@ -38,8 +49,3 @@ header:
       en      : &EN       友人帐
       zh-Hans : &ZH_HANS  友人帐
     url: /links.html
-
-  - titles:
-      en      : &EN       文章
-      zh-Hans : &ZH_HANS  文章
-    url: /postlists.html
