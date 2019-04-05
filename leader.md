@@ -6,9 +6,11 @@ title: 导航
 <div class="hero hero--dark" style='background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554399043610&di=bdd6cf547c00202db1ca1b40f7bfdc23&imgtype=0&src=http%3A%2F%2Fpic.jycypt.com%2Fimages%2F2%2F2017%2F08%2FL7KzHxv6h8Vm8HOh4HE8oEEdDFkKK8.jpg");'>
   <div class="hero__content">
     <h3><center>
-    <a href="https://www.baidu.com/"><font color=black>
+    <a href="https://www.baidu.com/">
+      <font color=black>
       百度
-    </font></a>
+      </font>
+    </a>
     </center></h3>
   </div>
 </div>
