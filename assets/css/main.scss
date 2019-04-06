@@ -74,3 +74,8 @@
 
     "custom"
 ;
+.article__content .highlighter-rouge>.highlight>pre>code,
+.article__content figure.highlight>pre>code {
+ display:block;
+ font-size: 16px;
+}
