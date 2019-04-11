@@ -2,7 +2,11 @@
 layout: article
 title: 图论 | 二分 | 最小生成树 | [国家集训队2]Tree I
 categories: 题目
-tags: 题目
+tags: 
+- 图论
+- 分治
+- 二分
+- 最小生成树
 mode: immersive
 header:
   theme: dark
