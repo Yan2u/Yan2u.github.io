@@ -6,6 +6,7 @@ tags:
 - 图论
 - 最小生成树
 - 最短路径
+- Dijkstkra
 mode: immersive
 header:
   theme: dark
