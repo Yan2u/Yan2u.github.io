@@ -2,7 +2,10 @@
 layout: article
 title: 图论 | 最小生成树 | 最短路径 | 黑暗城堡 Dark Castle
 categories: 题目
-tags: 题目
+tags: 
+- 图论
+- 最小生成树
+- 最短路径
 mode: immersive
 header:
   theme: dark
