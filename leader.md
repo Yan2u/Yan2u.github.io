@@ -24,6 +24,16 @@ comment: false
   </div>
 </div>
 <p></p>
+<div class="hero hero--dark" style='background-image: url("https://s2.ax1x.com/2019/04/15/AX5y2F.jpg");'>
+  <div class="hero__content">
+    <h3><center>
+    <a href="http://wuyanxi.top/previous">
+      [Previous]Github(Hexo)
+    </a>
+    </center></h3>
+  </div>
+</div>
+
 
 ## Cover
 <div class="hero hero--dark" style='background-image: url("http://p1.music.126.net/TM6SM2-ppcd1F66YyjR-Eg==/2537672838610591.jpg");'>
