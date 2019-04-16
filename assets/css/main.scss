@@ -85,3 +85,9 @@
 .root[data-is-touch="false"] a > .item__header:hover, .root[data-is-touch="false"] a.item__header:hover, .root[data-is-touch="false"] .item__header > a:hover {
     text-shadow: 5px 5px 2px #fc4d50;
 }
+.article__content blockquote:hover{
+    border-left-width: 6px;
+}
+.article__content h1:hover, .article__content h2:hover{
+    border-bottom-width: 4px;
+}
