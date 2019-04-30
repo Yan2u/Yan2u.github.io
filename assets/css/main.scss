@@ -77,9 +77,12 @@
 .article__content .highlighter-rouge>.highlight>pre>code,
 .article__content figure.highlight>pre>code {
  display:block;
- border: dashed #eee;
  font-size: 15px;
 }
+.article__content .highlighter-rouge > .highlight > pre, .article__content figure.highlight > pre{
+    border: dashed #eee;
+}
+
 .article__content blockquote{
     font-size: 1rem;
 }
@@ -90,5 +93,5 @@
     border-left-width: 6px;
 }
 .article__content h1:hover, .article__content h2:hover{
-    text-shadow: 2px 2px 2px "black";
+    text-shadow: 2px 2px 2px black;
 }
