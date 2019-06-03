@@ -84,7 +84,10 @@
 }
 
 .article__content blockquote{
-    font-size: 1rem;
+    font-size: 19px;
+}
+.article__content{
+    font-size: 19px;
 }
 .root[data-is-touch="false"] a > .item__header:hover, .root[data-is-touch="false"] a.item__header:hover, .root[data-is-touch="false"] .item__header > a:hover {
     text-shadow: 5px 5px 2px #fc4d50;
