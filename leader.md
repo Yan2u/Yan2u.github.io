@@ -46,12 +46,12 @@ comment: false
 
 
 ## Cover
-<div class="hero hero--dark" style='background-image: url("http://p1.music.126.net/TM6SM2-ppcd1F66YyjR-Eg==/2537672838610591.jpg");'>
+<div class="hero hero--dark" style='http://p1.music.126.net/MYIl1dPJCMt0ay9zmIJRtQ==/17783501068032491.jpg");'>
   <div class="hero__content">
     <h3><center>
-      光るなら「四月は君の嘘」OP1
+      Unbecoming - Starset
     </center></h3>
   </div>
 </div>
 <p></p>
-{%- include extensions/netease-cloud-music.html id='29732992' -%}
+{%- include extensions/netease-cloud-music.html id='454711161' -%}
