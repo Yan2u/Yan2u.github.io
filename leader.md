@@ -24,7 +24,7 @@ comment: false
   </div>
 </div>
 <p></p>
-<div class="hero hero--dark" style='background-image: url("http://pic37.nipic.com/20140107/16903118_134456297165_2.png");'>
+<div class="hero hero--dark" style='background-image: url("http://a4.att.hudong.com/40/79/19300001306677131029792269727.jpg");'>
   <div class="hero__content">
     <h3><center>
     <a href="https://loj.ac/">
@@ -46,7 +46,7 @@ comment: false
 
 
 ## Cover
-<div class="hero hero--dark" style='http://p1.music.126.net/MYIl1dPJCMt0ay9zmIJRtQ==/17783501068032491.jpg");'>
+<div class="hero hero--dark" style='style='background-image: url("http://p1.music.126.net/MYIl1dPJCMt0ay9zmIJRtQ==/17783501068032491.jpg");'>
   <div class="hero__content">
     <h3><center>
       Unbecoming - Starset
