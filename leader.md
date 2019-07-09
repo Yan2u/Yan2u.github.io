@@ -46,7 +46,7 @@ comment: false
 
 
 ## Cover
-<div class="hero hero--dark" style='style='background-image: url("http://p1.music.126.net/MYIl1dPJCMt0ay9zmIJRtQ==/17783501068032491.jpg");'>
+<div class="hero hero--dark" style='background-image: url("http://p1.music.126.net/MYIl1dPJCMt0ay9zmIJRtQ==/17783501068032491.jpg");'>
   <div class="hero__content">
     <h3><center>
       Unbecoming - Starset
