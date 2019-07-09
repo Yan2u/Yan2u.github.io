@@ -4,7 +4,7 @@ title: 导航
 comment: false
 ---
 ## Sites
-<div class="hero hero--dark" style='background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554399555969&di=2c94610485a6819c1969435dfed0d46f&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fa8773912b31bb05170f3f1123d7adab44aede031.jpg");'>
+<div class="hero hero--dark" style='background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2017/03/windows_10-12.png");'>
   <div class="hero__content">
     <h3><center>
     <a href="http://newoj.cqyz.cn/">
@@ -19,6 +19,16 @@ comment: false
     <h3><center>
     <a href="https://www.luogu.org/">
       洛谷
+    </a>
+    </center></h3>
+  </div>
+</div>
+<p></p>
+<div class="hero hero--dark" style='background-image: url("http://pic37.nipic.com/20140107/16903118_134456297165_2.png");'>
+  <div class="hero__content">
+    <h3><center>
+    <a href="https://loj.ac/">
+      LibreOJ
     </a>
     </center></h3>
   </div>
