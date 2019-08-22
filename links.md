@@ -15,9 +15,9 @@ article_header:
 ---
 ## My Friends
 
-<div class="hero hero--dark" style='height: 500px; background-image: url("https://i.loli.net/2019/03/18/5c8f563b1ba1e.jpg");'>
+<div class="hero hero--dark" style='height: 500px; background-image: url("http://theme-next.iissnan.com/assets/img/banner-2.jpg");'>
   <div class="hero__content">
-    <a href="http://www.cnblogs.com/perisino"><h3>Perisino</h3></a>
+    <a href="https://perisiely.github.io/"><h3>Perisino</h3></a>
     <p>Friend——Perisino</p>
   </div>
 </div>
@@ -33,7 +33,7 @@ article_header:
 ---
 <div class="hero hero--dark" style='height: 500px; background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1552881535528&di=9e0d8bdd6dd210ab44996f4281e58fc5&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201602%2F16%2F20160216105758_P5muR.jpeg");'>
   <div class="hero__content">
-    <a href="https://www.luogu.org/blog/108191/"><h3><font color="black">LTX</font></h3></a>
+    <a href="https://www.cnblogs.com/TaylorSwift13/"><h3><font color="black">LTX</font></h3></a>
     <p><font color="black">Friend——LTX</font></p>
   </div>
 </div>
@@ -47,9 +47,9 @@ article_header:
 </div>
 
 ---
-<div class="hero hero--dark" style='height: 500px; background-image: url("https://i.loli.net/2019/03/18/5c8f563b0b473.jpg");'>
+<div class="hero hero--dark" style='height: 500px; background-image: url("https://ww1.yunjiexi.club/2019/08/20/45c8efa25f9ce3d37b7d7c68c61ea54d.jpg");'>
   <div class="hero__content">
-    <a href="https://epworth.coding.me"><h3>Epworth</h3></a>
+    <a href="https://epworth.cn/"><h3>Epworth</h3></a>
     <p>Friend——Epworth</p>
   </div>
 </div>
