@@ -49,3 +49,8 @@ header:
       en      : &EN       友人帐
       zh-Hans : &ZH_HANS  友人帐
     url: /links.html
+    
+  - titles:
+      en      : &EN       VB.NET PROJECTS
+      zh-Hans : &ZH_HANS  VB.NET
+    url: /vbpro.html 
