@@ -86,7 +86,9 @@
     font-size: 19px;
 }
 .root[data-is-touch="false"] a > .item__header:hover, .root[data-is-touch="false"] a.item__header:hover, .root[data-is-touch="false"] .item__header > a:hover {
-    text-shadow: 5px 5px 2px #fc4d50;
+    border-left: solid #fc4d50 4px;
+	padding-left: 1rem;
+}
 }
 .article__content blockquote:hover{
     border-left-width: 6px;
