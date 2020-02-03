@@ -46,12 +46,12 @@ comment: false
 
 
 ## Cover
-<div class="hero hero--dark" style='background-image: url("http://p2.music.126.net/2uPQgxLJSqwCSzxFUjTO5g==/109951163381978198.jpg");'>
+<div class="hero hero--dark" style='background-image: url("http://p1.music.126.net/kjFVkzzt6BzB9EXr0qB1zA==/2576155743910424.jpg");'>
   <div class="hero__content">
     <h3><center>
-      On My Own - Far Out / Karra
+      Look At Me Now - Charlie Puth
     </center></h3>
   </div>
 </div>
 <p></p>
-{%- include extensions/bilibili.html id='26827531' -%}
+{%- include extensions/bilibili.html id='17984102' -%}
