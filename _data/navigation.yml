@@ -1,11 +1,11 @@
 header:
   - titles:
-      en      : &EN       文章
+      en      : &EN       Articles
       zh-Hans : &ZH_HANS  文章
     url: /postlists.html
 
   - titles:
-      en      : &EN       导航
+      en      : &EN       Navigation
       zh-Hans : &ZH_HANS  导航
     url: /leader.html
 
@@ -46,6 +46,11 @@ header:
     
     
   - titles:
-      en      : &EN       友人帐
+      en      : &EN       Friends
       zh-Hans : &ZH_HANS  友人帐
     url: /links.html
+    
+  - titles:
+      en      : &EN       QQMusicSearcher
+      zh-Hans : &ZH_HANS  QQ音乐搜索功能
+    url: /QQMusicSearch.html
