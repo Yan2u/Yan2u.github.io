@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>NetEasee Song - By WYX</title>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta </head>
+    <style type="text/css">
+        body,
+        html {
+            background-color: #EBECF0;
+        }
+
+        form {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .mytextarea {
+            font-family: "verdana";
+            font-size: 23px;
+            border: 0px;
+            border-radius: 5px;
+            background-color: #EBECF0;
+            text-shadow: 1px 1px 0 #FFF;
+            box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+            width: 92%;
+            height: 60px;
+            box-sizing: border-box;
+            transition: all 0.2s ease-in-out;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            text-shadow: 1px 1px 0 #FFF;
+            padding-left: 16px;
+        }
+
+        .mytextarea:focus {
+            -webkit-appearance: none;
+            border: 0px;
+            box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+        }
+
+        h2 {
+            margin: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: "verdana";
+            color: #2e317c;
+        }
+
+        p {
+            margin: 10px;
+            font-family: "verdana";
+            font-size: 25px;
+            color: rgb(151, 151, 151);
+        }
+    </style>
+    <style>
+        #container {
+            font-family: "verdana";
+            font-size: 23px;
+            border: 0;
+            outline: 0;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 16px;
+            background-color: #EBECF0;
+            text-shadow: 1px 1px 0 #FFF;
+            color: #61677C;
+            font-weight: bold;
+            box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+            transition: all 0.2s ease-in-out;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        .functiontable {
+            font-family: "verdana";
+            font-size: 23px;
+            border: 0;
+            outline: 0;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 16px;
+            background-color: #EBECF0;
+            text-shadow: 1px 1px 0 #FFF;
+            color: #61677C;
+            font-weight: bold;
+            box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+            transition: all 0.2s ease-in-out;
+            width: 98%;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .functiontable th {
+            font-size: 23px;
+            color: #2e317c;
+        }
+
+        .functiontable td {
+            font-size: 20px;
+            color: rgb(189, 189, 189);
+        }
+
+        #mybutton {
+            font-family: "verdana";
+            font-size: 23px;
+            border: 0;
+            outline: 0;
+            border-radius: 20px;
+            padding: 16px;
+            margin-bottom: 16px;
+            background-color: #EBECF0;
+            text-shadow: 1px 1px 0 #FFF;
+            color: #61677C;
+            font-weight: bold;
+            box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        #mybutton:hover {
+            box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+        }
+
+        #mybutton:active {
+            box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+        }
+
+        #mybutton.calcbtn {
+            color: #2e317c;
+            display: inline-block;
+            width: 40%;
+        }
+
+        #mybutton.downbtn {
+            width: 110px;
+            height: 50px;
+            background: url('https://s1.ax1x.com/2020/03/16/8GTJbt.png');
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        #mybutton.linkbtn {
+            width: 110px;
+            height: 50px;
+            background: url('https://s1.ax1x.com/2020/03/16/8GTGDI.png');
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+        }
+
+        #mybutton.searchbtn {
+            width: 65px;
+            height: 65px;
+            background: url('https://s1.ax1x.com/2020/03/16/8GT8KA.png');
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 10px;
+            margin-left: 10px;
+            padding: 22px;
+        }
+
+        .imgdisplay {
+            width: 90px;
+            height: 60px;
+            border-radius: 5px;
+        }
+    </style>
+    <!--
+    https://s1.ax1x.com/2020/03/16/8GTJbt.png Download
+    https://s1.ax1x.com/2020/03/16/8GTGDI.png ExLink
+    https://s1.ax1x.com/2020/03/16/8GT8KA.png Search
+-->
+    <!--
+    <tr>
+        <td><img class="imgdisplay" src="https://s2.ax1x.com/2019/04/06/AWRHC4.jpg"></td>
+        <td>Red</td>
+        <td>Taylor Swift</td>
+        <td>Red</td>
+        <td>03:55</td>
+        <td><button id="mybutton" type="button" class="downbtn"></button></td>
+        <td><button id="mybutton" type="button" class="linkbtn"></button></td>
+    </tr>
+-->
+
+<body>
+    <form>
+        <div>
+            <h2 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Search some songs on QQMusic</h2>
+        </div>
+        <div style="width: 100%;">
+            <input class="mytextarea" placeholder="Type Something" id="searchBox">
+            <button id="mybutton" type="button" class="searchbtn" style="display: inline;"
+                onclick="onSearchBtnClick()"></button>
+        </div>
+        <div>
+            <h2 style="text-align: center; margin-top: 20px; margin-bottom: 30px;">Result Below</h2>
+        </div>
+        <div>
+            <table class="functiontable" id="resultstable">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Song</th>
+                        <th scope="col">Artist</th>
+                        <th scope="col">Album</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Download</th>
+                        <th scope="col">Online</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </form>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        function PrefixInteger(num, length) {
+            return (Array(length).join('0') + num).slice(-length);
+        }
+        var MyQuery = (keywords) => { return `https://c.y.qq.com/soso/fcgi-bin/client_search_cp?aggr=1&cr=1&flag_qc=0&p=1&n=20&w=${keywords}&jsoncallback=?`; }
+        var MyAlbumPic = (songid) => { return `http://imgcache.qq.com/music/photo/album_500/17/500_albumpic_${songid}_0.jpg`; }
+        var MyMp3File = (songid) => { return `http://music.163.com/song/media/outer/url?id=${songid}`; }
+        var MyOnlinePage = (songid) => { return `https://y.qq.com/n/yqq/song/${songid}.html`; }
+        var MyTableTemplate = function (pic, song, artist, album, duration, download, onlinepage) {
+
+            return `<tr>\n` +
+                `   <td><img class='imgdisplay' src='${pic}'></td>\n` +
+                `   <td>${song}</td>\n` +
+                `   <td>${artist}</td>\n` +
+                `   <td>${album}</td>\n` +
+                `   <td>${duration}</td>\n` +
+                `   <td><button id='mybutton' type='button' class='downbtn' onclick="window.open('${download}')"></button></td>\n` +
+                `   <td><button id='mybutton' type='button' class='linkbtn' onclick="window.open('${onlinepage}')"></button></td>\n` +
+                `</tr>\n`;
+        }
+
+        var searchBox = document.getElementById("searchBox");
+        var resultsTable = document.getElementById("resultstable");
+        var Jarr;
+
+        var callback = function (json) {
+            var resBody = document.getElementById("resultBody");
+            if (resBody != null) resultsTable.removeChild(resBody);
+            Jarr = json.data.song.list;
+            var strHTML = "";
+            for (JSingle of Jarr) {
+                strHTML += MyTableTemplate(
+                    (JSingle.albumid == 0 ? 'https://s1.ax1x.com/2020/03/17/8t4Kq1.png' : MyAlbumPic(JSingle.albumid)),
+                    JSingle.songname,
+                    JSingle.singer[0].name,
+                    JSingle.albumname,
+                    `${parseInt(JSingle.interval / 60)}:${PrefixInteger(JSingle.interval % 60,2)}`,
+                    "",
+                    MyOnlinePage(JSingle.songmid)
+                );
+            }
+            var newTable = document.createElement("tbody");
+            newTable.innerHTML = strHTML;
+            newTable.id = "resultBody";
+            resultsTable.appendChild(newTable);
+        }
+
+        var onSearchBtnClick = () => {
+            $.getJSON(MyQuery(searchBox.value), (json) => { callback });
+        }
+    </script>
+</body>
